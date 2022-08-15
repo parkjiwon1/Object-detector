@@ -5,12 +5,6 @@ import tensorflow as tf
 import cv2 as cv
 import random
 import matplotlib.pyplot as plt
-from tensorflow.compat.v1 import ConfigProto
-from tensorflow.compat.v1 import InteractiveSession
-
-config = ConfigProto()
-config.gpu_options.allow_growth = True
-session = InteractiveSession(config=config)
 
 # Generate training images and labels
 
